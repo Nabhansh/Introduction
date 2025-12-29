@@ -8,7 +8,7 @@ import emailjs from "@emailjs/browser";
 
 // template_r9wji9q
 // service_ygksadp
-// 3lDtCP31mFt_52s7F
+// h2w8aJz49F2kmxqKc
 
 const Contact = () => {
   const formRef = useRef();
@@ -28,7 +28,7 @@ const Contact = () => {
 
     // template_r9wji9q
     // service_ygksadp
-    // 3lDtCP31mFt_52s7F
+    // h2w8aJz49F2kmxqKc
 
     emailjs
       .send(
@@ -41,7 +41,7 @@ const Contact = () => {
 
           message: form.message,
         },
-        "3lDtCP31mFt_52s7F"
+        "h2w8aJz49F2kmxqKc"
       )
       .then(
         () => {
